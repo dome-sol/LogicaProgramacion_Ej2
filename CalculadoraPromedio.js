@@ -7,12 +7,12 @@ while (calificacion1 < 0 || calificacion1 > 10) {
 }
 
 let calificacion2 = parseFloat(prompt("Ingrese la segunda calificación (el valor debe estar entre 0 y 10):"));
-while (calificacion1 < 0 || calificacion1 > 10) {
+while (calificacion2 < 0 || calificacion2 > 10) {
   calificacion1 = parseFloat(prompt("La calificación ingresad es errónea, ingrese un valor entre 0 y 10"));
 }
 
 let calificacion3 = parseFloat(prompt("Ingrese la tercera calificación (el valor debe estar entre 0 y 10):"));
-while (calificacion1 < 0 || calificacion1 > 10) {
+while (calificacion3 < 0 || calificacion3 > 10) {
   calificacion1 = parseFloat(prompt("La calificación ingresad es errónea, ingrese un valor entre 0 y 10"));
 }
 
